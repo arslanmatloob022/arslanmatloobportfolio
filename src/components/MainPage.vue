@@ -117,6 +117,64 @@
           </div>
         </div>
       </div>
+      <div class="education borders divs row">
+        <div class="siders">
+          <i class="fas fa-user-circle" aria-hidden="true"></i>
+        </div>
+        <h1 class="col-lg-12 col-md-12 col-sm-12 col-12">Social Accounts</h1>
+        <div class="graduation col-lg-4 col-md-4 col-sm-4 col-4">
+          <a
+            href="https://github.com/arslanmatloob022"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><h5><i class="fab fa-github" aria-hidden="true"></i> Github</h5></a
+          >
+          <a
+            href="https://linkedin.com/in/raoarslanmatloob"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><h5>
+              <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+            </h5></a
+          >
+        </div>
+        <div class="graduation col-lg-4 col-md-4 col-sm-4 col-4">
+          <a
+            href="https://www.facebook.com/arslan.raajput.1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><h5>
+              <i class="fab fa-facebook" aria-hidden="true"></i> Facebook
+            </h5></a
+          >
+          <a
+            href="https://www.instagram.com/i_arslan_rao/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><h5>
+              <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+            </h5></a
+          >
+          <a
+            ><h5>
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> 03007626555
+            </h5></a
+          >
+        </div>
+        <div class="graduation col-lg-4 col-md-4 col-sm-4 col-4">
+          <a
+            href="mailto:raoarslanmatloob@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><h5><i class="fab fa-dropbox" aria-hidden="true"></i> Email</h5></a
+          >
+          <a href="callto:+923007626555"
+            ><h5>
+              <i class="fa fa-phone" aria-hidden="true"></i> 0300-7626-555
+            </h5></a
+          >
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -252,8 +310,9 @@ export default {
 .fa-cogs,
 .fa-folder-open,
 .fa-id-badge,
+.fa-user-circle,
 .fa-book {
-  font-size: 1.2dvw;
+  font-size: 1.4dvw;
   color: #fce2f9;
 }
 .divs h1,
