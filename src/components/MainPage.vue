@@ -117,6 +117,7 @@
           </div>
         </div>
       </div>
+
       <div class="education borders divs row">
         <div class="siders">
           <i class="fas fa-user-circle" aria-hidden="true"></i>
