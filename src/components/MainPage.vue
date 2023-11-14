@@ -216,6 +216,14 @@ export default {
             "This is my own project and to be lounched officially soon. This is the master piece of my work.",
           link: "https://webdazzels.netlify.app/",
         },
+        {
+          id: 5,
+          image: require("@/assets/projectimgs/a.png"),
+          name: "Bored App",
+          description:
+            "A small and intersting Application. To practice the API fetching process using fetch method(Js)",
+          link: "https://boredandactive.netlify.app/#/",
+        },
       ],
     };
   },
