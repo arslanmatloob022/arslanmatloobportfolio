@@ -176,12 +176,23 @@
           >
         </div>
       </div>
+
+      <div class="education borders divs row">
+        <div class="siders">
+          <i class="fab fa-buysellads" aria-hidden="true"></i>
+        </div>
+        <fiverr-Badge-Vue></fiverr-Badge-Vue>
+      </div>
     </div>
   </section>
 </template>
 <script>
+import fiverrBadgeVue from "./fiverrBadge.vue";
 export default {
   namae: "MainPage",
+  components: {
+    fiverrBadgeVue,
+  },
   data() {
     return {
       projects: [
@@ -268,13 +279,13 @@ export default {
   overflow: hidden;
   background-color: #74526c;
   border-radius: 220px 220px 0px 220px;
-  box-shadow: 1px 1px 16px 4px #b09398;
+  box-shadow: 0 0 16px 4px #b09398;
   transition: all 0.3s ease-in-out;
 }
 .image:hover {
   cursor: pointer;
   transform: scale(1.01);
-  box-shadow: 1px 1px 22px 8px #b09398;
+  box-shadow: 0 0 32px 8px #b09398;
 }
 .image img {
   width: 100%;
@@ -320,6 +331,7 @@ export default {
 .fa-folder-open,
 .fa-id-badge,
 .fa-user-circle,
+.fa-buysellads,
 .fa-book {
   font-size: 1.4dvw;
   color: #fce2f9;
