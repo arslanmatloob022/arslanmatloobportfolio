@@ -219,7 +219,7 @@ export default {
         },
         {
           id: 5,
-          image: require("@/assets/projectimgs/a.png"),
+          image: require("@/assets/projectimgs/a1.png"),
           name: "Bored App",
           description:
             "A small and intersting Application. To practice the API fetching process using fetch method(Js)",
